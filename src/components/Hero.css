@@ -1,0 +1,112 @@
+button {
+    background: none;
+    border: 2px solid var(--first-shade-orange);
+    border-radius: 1rem;
+    padding: 0.4rem;
+    letter-spacing: 0.2rem;
+    color: var(--main-black);
+}
+
+.heroMainContainer {
+    position: relative;
+    /* border: 1px solid goldenrod; */
+    background-color: var(--background-color-one);
+}
+
+.heroIntroContainer {
+    margin-top: 4rem;
+    padding-top: 0;
+    letter-spacing: 0.2rem;
+}
+
+.heroIntro {
+    margin-left: 1rem;
+    margin-right: 1rem;   
+}
+
+.heroIntroContainer h3{
+    margin: 0;
+    padding: 0;
+    color: var(--main-black);
+}
+
+.heroIntroContainer h2{
+    margin: 0;
+    padding: 0;
+    color: var(--main-orange);
+}
+
+.heroButtonContainer {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.heroIntroHeader {
+    /* border: 1px solid goldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0.2rem;
+    font-weight: 800;
+}
+
+.heroParagraph {
+    /* border: 1px solid goldenrod; */
+    margin-top: 2rem;
+}
+
+.heroParagraph p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    color: var(--main-black);
+}
+
+@media only screen and (min-width: 300px) {
+    .heroIntroContainer h3{
+        font-size: 1.5rem;
+    }
+    
+    .heroIntroContainer h2{
+        font-size: 2rem;
+    }
+
+    .heroParagraph {
+        max-width: 25rem;
+    }
+
+    .heroParagraph p {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+    .heroButtonContainer {
+        margin-bottom: 2.4rem;
+        margin-top: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .heroIntroContainer h3{
+        font-size: 1.7rem;
+    }
+    
+    .heroIntroContainer h2{
+        font-size: 2.2rem;
+    }
+
+    .heroParagraph {
+        max-width: 30rem;
+    }
+
+    .heroParagraph p {
+        font-size: 1.7rem;
+    }
+    button {
+        font-size: 1.2rem;
+    }
+}

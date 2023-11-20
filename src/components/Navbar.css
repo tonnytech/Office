@@ -1,0 +1,43 @@
+.NavbarMainContainer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+ul {
+    list-style: none;
+}
+
+.hamburger {
+    width: 2rem;
+    color: goldenrod;
+    padding: 0;
+    margin: 0;
+}
+
+.desktopLogo {
+    display: none;
+}
+
+.close {
+    display: none !important;
+}
+
+.open {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.navbarListContainer {
+    display: flex;
+    justify-content: space-between !important;
+    z-index: 2;
+}
+
+.showMenu {
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.hideMenu {
+    display: none;
+}
