@@ -39,8 +39,9 @@ button {
 .heroButtonContainer {
     display: flex;
     gap: 3rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .heroIntroHeader {
@@ -65,7 +66,11 @@ button {
     color: var(--main-black);
 }
 
-@media only screen and (min-width: 300px) {
+.heroImageContainer {
+    display: none;
+}
+
+@media only screen and (min-width: 228px) {
     .heroIntroContainer h3{
         font-size: 1.5rem;
     }
@@ -85,7 +90,7 @@ button {
         font-size: 1rem;
     }
     .heroButtonContainer {
-        margin-bottom: 2.4rem;
+        padding-bottom: 2.4rem;
         margin-top: 2.4rem;
     }
 }

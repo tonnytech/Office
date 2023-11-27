@@ -28,6 +28,11 @@ const Hero = ()=> {
                     </button>
                 </div>
             </div>
+            <div className='heroImageContainer'>
+                <div className='heroImage'>
+                    <div>image appears here</div>
+                </div>                
+            </div>
         </div>
     </section>
   )
