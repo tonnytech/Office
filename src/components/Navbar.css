@@ -1,91 +1,92 @@
-.NavbarMainContainer{
-    margin-bottom: 0;
-    padding-bottom: 0;
+.NavbarMainContainer {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
+
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .hamburger {
-    width: 2rem;
-    color: goldenrod;
-    padding: 0;
-    margin: 0;
+  width: 2rem;
+  color: goldenrod;
+  padding: 0;
+  margin: 0;
 }
 
 .desktopLogo {
-    display: none;
+  display: none;
 }
 
 .close {
-    display: none !important;
+  display: none !important;
 }
 
 .open {
-    display: flex;
-    justify-content: space-between !important;
+  display: flex;
+  justify-content: space-between !important;
 }
 
 .navbarListContainer {
-    display: flex;
-    justify-content: space-between !important;
-    z-index: 2;
+  display: flex;
+  justify-content: space-between !important;
+  z-index: 2;
 }
 
 .showMenu {
-    display: block;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .hideMenu {
-    display: none;
+  display: none;
 }
 
 @media only screen and (min-width: 769px) {
-    .desktopLogo {
-        display: block;
-    }
+  .desktopLogo {
+    display: block;
+  }
 
-    .mobileLogo {
-        display: none;
-    }
-
-   .hideMenu {
+  .mobileLogo {
     display: none;
-   }
+  }
 
-   .showMenu {
+  .hideMenu {
     display: none;
-   }
+  }
 
-    .close {
-        display: flex !important;
-    }
+  .showMenu {
+    display: none;
+  }
 
-    .close ul {
-        display: flex;
-        flex-direction: row !important;
-        gap: 2rem;
-    }
+  .close {
+    display: flex !important;
+  }
 
-    .open ul {
-        display: flex;
-        flex-direction: row !important;
-        gap: 2rem;
-    }
+  .close ul {
+    display: flex;
+    flex-direction: row !important;
+    gap: 2rem;
+  }
 
-    .hamClose {
-        display: none;
-    }
+  .open ul {
+    display: flex;
+    flex-direction: row !important;
+    gap: 2rem;
+  }
 
-    .NavbarMainContainer {
-        display: flex;
-        align-items: center;
-        gap: 25rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
-        position: absolute;
-        z-index: 3;
-    }
+  .hamClose {
+    display: none;
+  }
+
+  .NavbarMainContainer {
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    position: absolute;
+    z-index: 3;
+  }
 }
