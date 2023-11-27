@@ -23,6 +23,7 @@ const About=()=> {
                  reserve Monday to Saturday, 8 am to 8 pm. Modern,
                   flexible, inspiring workspace.
                 </p>
+                <button>Email us</button>
             </div>
         </div>
     </div>

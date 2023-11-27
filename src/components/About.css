@@ -1,11 +1,13 @@
 .aboutSectionInfoContainer {
     margin-left: 1rem;
     margin-right: 1rem;
+    padding-bottom: 5rem;
 }
 
 .aboutImageElement {
     width: 100%;
     height: auto;
+    border-bottom: 2px solid var(--main-orange);
 }
 
 .sectionNumberContainer {
@@ -29,4 +31,11 @@
 
 .aboutSection h2 {
     color: var(--main-black);
+}
+
+.aboutSection {
+    max-width: 25rem;
+    font-size: 1.5rem;
+    color: var(--main-black);
+    margin-left: 3rem;
 }
