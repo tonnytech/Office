@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import heroImage from '../Assets/first.png';
 import './Hero.css';
 
 const Hero = ()=> {
@@ -30,7 +31,7 @@ const Hero = ()=> {
             </div>
             <div className='heroImageContainer'>
                 <div className='heroImage'>
-                    <div>image appears here</div>
+                    <img src={heroImage} alt='heroImage' className='heroImage'/>
                 </div>                
             </div>
         </div>

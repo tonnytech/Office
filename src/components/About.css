@@ -8,6 +8,8 @@
     width: 100%;
     height: auto;
     border-bottom: 2px solid var(--main-orange);
+    max-height: 350px;
+    object-fit: cover;
 }
 
 .sectionNumberContainer {

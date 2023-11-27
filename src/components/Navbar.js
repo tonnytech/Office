@@ -27,7 +27,7 @@ const Navbar =()=> {
         <div className={isOpen ? 'open' : 'close'}>
             
             <ul>
-                <li>
+                <li className='mobileLogo'>
                     <img src={office} className='hamburger'/>
                 </li>
                 <li>menu</li>
@@ -35,7 +35,7 @@ const Navbar =()=> {
                 <li>menu</li>
             </ul>
             <div>
-                <img src={close} className='hamburger'onClick={closeNav}/>
+                <img src={close} className='hamburger hamClose'onClick={closeNav}/>
             </div>
         </div>
     </div>
