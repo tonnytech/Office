@@ -9,9 +9,8 @@ button {
 
 .heroMainContainer {
   position: relative;
-
-  /* border: 1px solid goldenrod; */
   background-color: var(--background-color-one);
+  height: 90vh;
 }
 
 .heroIntroContainer {
@@ -22,19 +21,21 @@ button {
 .heroIntro {
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .heroIntroContainer h3 {
   margin: 0;
   padding: 0;
   color: var(--main-black);
+  font-size: 1.5rem;
 }
 
 .heroIntroContainer h2 {
   margin: 0;
   padding: 0;
   color: var(--main-orange);
+  font-size: 2rem;
 }
 
 .heroButtonContainer {
@@ -42,8 +43,7 @@ button {
   gap: 3rem;
 
   /* margin-bottom: 2rem; */
-  margin-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 6rem;
 }
 
 .heroIntroHeader {
@@ -67,19 +67,20 @@ button {
   padding: 0;
   letter-spacing: 0.2rem;
   color: var(--main-black);
+  font-size: 1.35rem;
 }
 
 .heroImageContainer {
   display: none;
 }
 
-@media only screen and (min-width: 228px) {
+@media only screen and (min-width: 298px) {
   .heroIntroContainer h3 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
 
   .heroIntroContainer h2 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 
   .heroParagraph {
@@ -96,12 +97,27 @@ button {
 
   .heroButtonContainer {
     padding-bottom: 2.4rem;
-    margin-top: 2.4rem;
+    margin-top: 4.5rem;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 383px) {
   .heroIntroContainer h3 {
+    font-size: 3rem;
+  }
+
+  .heroIntroContainer h2 {
+    font-size: 3.5rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* .heroIntroContainer h3 {
     font-size: 1.7rem;
   }
 
@@ -115,7 +131,7 @@ button {
 
   .heroParagraph p {
     font-size: 1.7rem;
-  }
+  } */
 
   button {
     font-size: 1.2rem;
