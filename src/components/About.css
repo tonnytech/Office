@@ -41,3 +41,52 @@
   color: var(--main-black);
   margin-left: 3rem;
 }
+
+@media only screen and (min-width: 769px) {
+  .AboutSectionContainer {
+    display: grid !important;
+    grid-template-columns: 40% 60%;
+    column-gap: 5rem;
+    height: 80vh;
+  }
+
+  .aboutSectionInfoContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .aboutImageElement {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--main-orange);
+    max-height: unset;
+    object-fit: cover;
+  }
+
+  .aboutImage {
+    height: 100%;
+    width: 100%;
+    border: 5px solid var(--first-shade-orange);
+    border-bottom-right-radius: 50%;
+    border-top: none;
+    border-left: none;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .AboutSectionContainer {
+    display: grid !important;
+    grid-template-columns: 40% 60%;
+    column-gap: 10rem;
+    height: 80vh;
+  }
+  .aboutSection {
+    max-width: 25rem;
+    font-size: 1.5rem;
+    color: var(--main-black);
+    margin-left: 5rem;
+    margin-top: 3.5rem;
+  }
+}

@@ -33,3 +33,7 @@ code {
   --main-orange: #f3b802;
   --first-shade-orange: #f1c388;
 }
+
+.section {
+  max-width: 1300px;
+}

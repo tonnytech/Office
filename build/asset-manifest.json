@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Office/static/css/main.fe33ca70.css",
+    "main.css": "/Office/static/css/main.82b969f9.css",
     "main.js": "/Office/static/js/main.bce06442.js",
     "static/js/787.71f071b9.chunk.js": "/Office/static/js/787.71f071b9.chunk.js",
     "static/media/first.png": "/Office/static/media/first.9e37c273af0d5df82ba4.png",
@@ -8,12 +8,12 @@
     "static/media/office.png": "/Office/static/media/office.7c38f956e2919b65fcc9.png",
     "static/media/hamburgerclose.png": "/Office/static/media/hamburgerclose.188720608dcbabe706b2.png",
     "index.html": "/Office/index.html",
-    "main.fe33ca70.css.map": "/Office/static/css/main.fe33ca70.css.map",
+    "main.82b969f9.css.map": "/Office/static/css/main.82b969f9.css.map",
     "main.bce06442.js.map": "/Office/static/js/main.bce06442.js.map",
     "787.71f071b9.chunk.js.map": "/Office/static/js/787.71f071b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe33ca70.css",
+    "static/css/main.82b969f9.css",
     "static/js/main.bce06442.js"
   ]
 }
